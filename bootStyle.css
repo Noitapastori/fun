@@ -1,0 +1,40 @@
+html {
+	font-size: 14px;
+}
+
+
+h1 {
+	padding-top:30px;
+	text-shadow: 2px 2px 4px #5B6269;
+}
+
+h2 {
+	margin-left: 5px;
+}
+
+p {
+	padding-top:10px;
+	margin-left: 5px;
+}
+
+.navbar {
+	background-color: #242E37;
+	border-bottom: 0px;
+}
+
+.well {
+	background-color: #ADB1B4;
+	box-shadow: 5px 5px #3F4850;
+}
+
+.jumbotron {
+	background-color: #C8CBCD
+}
+
+.row {
+	padding-bottom: 10px;
+}
+
+body {
+	background-color: #242E37;
+}

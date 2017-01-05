@@ -1,0 +1,173 @@
+header, footer,
+article, section,
+hgroup, nav,
+figure {
+			/*Giving a display value to the HTML5 elements: */
+			display:block;
+}
+
+body {
+	background-color:#242E37;
+}
+
+p {
+	font-family:"Trebuchet MS";
+}
+
+h1 {
+	font-family:"Trebuchet MS";
+	color:#FCFCFC;
+	padding-left: 5px;
+}
+
+h2 {
+	font-family:"Trebuchet MS";
+	margin-top:3em;
+	color:#FCFCFC;
+	text-transform: uppercase;
+}
+
+h3 {
+	color:#FCFCFC;
+	font-family:"Trebuchet MS";
+	text-transform:lowercase;
+	padding-left:5px;
+}
+
+article .line {
+	/*the dividing line*/
+	background-color:#15242a;
+	border-bottom-color:#204656;
+	margin:1.3em 0;
+}
+
+footer .line {
+	margin:2em 0;
+}
+
+nav{
+	background-color:#536D80;
+	position:fixed;
+	
+	top:0em;
+	right:0em;
+	
+	border:1px solid #FCFCFC;
+	
+	text-decoration:none;
+	
+	width:100%;
+}
+
+nav ul li {
+	display:inline;
+	text-decoration:none;
+	padding:5px;
+	margin:5px;
+}
+
+nav ul li a,
+nav ul li a:visited{
+	text-decoration:none;
+	color:#FCFCFC;
+	display:block;
+	float:left;
+	font-size:1.25em;
+	font-family:"Trebuchet MS";
+	font-weight:bold;
+	margin:10px;
+	width:150px;
+	text-align:center;
+}
+
+nav ul li a:hover{
+	text-decoration:none;
+}
+
+article, nav ul li a, figure {
+	/* Apply CSS3 rounded corners: */
+	-moz-border-radius:10px;
+	-web-border-radius:10px;
+	border-radius:10px;
+}
+
+/* Article styles: */
+
+#page {
+	width:960px;
+	background-color:#242E37;
+	margin: 0 auto;
+	position:relative;
+}
+
+article{
+	
+	background-color:#5F7C92;
+	margin:3em 0;
+	padding: 20px;
+	
+	width:fixed;
+	
+	border:3px solid #FCFCFC;
+	
+	-moz-box-shadow:0 1px 1px #333333;
+	-webkit-box-shadow:0 1px 1px #333333;
+	box-shadow:0 1px 1px #333333;
+}
+
+figure{
+	left:50%;
+	right:50%;
+	
+	border:5px solid #142830;
+	float:right;
+	height:380px;
+	width:380px;
+	margin:15px;
+	overflow:hidden;
+}
+
+figure:hover{
+	-moz-box-shadow:0 0 2px #4D7788;
+	-webkit-box-shadow:0 0 2px #4D7788;
+	box-shadow:0 0 2px #4D7788;
+}
+
+figure img{
+	margin-left:-60px;
+}
+
+/* footer styling */
+
+footer{
+	margin-bottom:30px;
+	text-align:center;
+	font-size:0.825em;
+}
+
+footer p{
+	margin-bottom:-2.5em;
+	position:relative;
+}
+
+footer a, footer a:visited {
+	color: #cccccc;
+	background-color:#242E37;
+	display:block;
+	padding: 2px 4px;
+	z-index:100;
+	position:relative;
+}
+
+footer a:hover{
+	text-decoration:none;
+	background-color:#242E37;
+}
+
+footer a.by{
+	float:left;
+}
+
+footer a.up{
+	float:right;
+}
